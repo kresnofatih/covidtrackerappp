@@ -1,0 +1,52 @@
+.Country_Detail {
+    margin: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+}
+
+.title_container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Back-btn {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.Back-btn:hover {
+    cursor: pointer;
+}
+
+.Cty-btn {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    text-transform: none;
+}
+
+.data_container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.data_containerSet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(36, 36, 36);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-bottom: 3px;
+}
+
+.data_containerSet:hover {
+    background-color: rgb(73, 73, 73);
+}

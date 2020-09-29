@@ -1,0 +1,34 @@
+.province_contents {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    background-color: rgb(27, 27, 27);
+    margin-bottom: 10px;
+}
+
+.province_contents:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.province_title {
+    flex: 0.2;
+    font-size: 20px;
+    margin: 0;
+}
+
+.Arrow {
+    color: white;
+    font-size: 30px;
+}
+
+.province_contents p {
+    flex: 0.15;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}

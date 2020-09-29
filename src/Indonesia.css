@@ -1,0 +1,54 @@
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat Black', sans-serif;
+    font-size: 50px;
+}
+
+.Countries_title {
+    margin-bottom: 10px;
+}
+
+.Indonesia {
+    margin-top: 0%;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.col {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    background-color: rgb(39, 39, 39);
+}
+
+.col_cont {
+    flex: 0.15;
+    text-align: left;
+}
+
+.col_col {
+    /* text-align: center; */
+    flex: 0.15;
+}
+
+.col_dat {
+    /* text-align: center; */
+    flex: 0.08;
+}
+
+.col_det {
+    /* text-align: center; */
+    flex: 0.1;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
